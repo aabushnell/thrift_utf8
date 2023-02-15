@@ -1,0 +1,37 @@
+from setuptools import setup
+
+setup(
+	name='thrif_utf8',
+	version='0.1',
+	description='Thrift fork',
+	author='Aaron Bushnell',
+	author_email='aabushnell@gmail.com',
+	packages=['thrift_utf8'],
+	install_requires=[
+		'struct',
+		'base64',
+		'math',
+		'sys',
+		'six',
+		'itertools',
+		'ssl',
+		'logging',
+		'select',
+		'socket',
+		'threading',
+		'multiprocessing',
+		'os',
+		'threading',
+		'zlib',
+		'warnings',
+		'io',
+		'errno',
+		'zope',
+		'twisted',
+		'__future__',
+		'SCons',
+		'collections',
+		'contextlib',
+		'tornado'
+	],
+)
