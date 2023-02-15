@@ -1,0 +1,15 @@
+README.md
+setup.py
+thrif_utf8.egg-info/PKG-INFO
+thrif_utf8.egg-info/SOURCES.txt
+thrif_utf8.egg-info/dependency_links.txt
+thrif_utf8.egg-info/requires.txt
+thrif_utf8.egg-info/top_level.txt
+thrift_utf8/TMultiplexedProcessor.py
+thrift_utf8/TRecursive.py
+thrift_utf8/TSCons.py
+thrift_utf8/TSerialization.py
+thrift_utf8/TTornado.py
+thrift_utf8/Thrift.py
+thrift_utf8/__init__.py
+thrift_utf8/compat.py
