@@ -28,7 +28,6 @@ setup(
 		'errno',
 		'zope',
 		'twisted',
-		'__future__',
 		'SCons',
 		'collections',
 		'contextlib',
