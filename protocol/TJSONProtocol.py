@@ -321,7 +321,7 @@ class TJSONProtocolBase(TProtocolBase):
                 utf8_bytes = bytearray([ord(character)])
                 while ord(self.reader.peek()) >= 0x80:
                     utf8_bytes.append(ord(self.reader.read()))
-                character = utf8_bytes.decode('utf8')
+                character = utf8_bytes.decode('utf8', errors='ignore')
             string.append(character)
 
             if highSurrogate:
